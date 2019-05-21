@@ -1,0 +1,101 @@
+using postman on my chrome book
+
+
+questions
+new company huh
+can i get a shirt
+http methods dont really method
+
+
+
+they are a new company
+standart in multi-carrier shipping & logistics
+power e-commerce solution to be like amazon air
+
+
+ship engine
+
+order  -> warehouse -> fullfillment ->
+
+you have a API,
+address validation services
+where you want to ship your order from
+tracking events
+
+
+
+postman info
+------------------
+shipenginehalik
+
+shipengine acct
+--------------
+u:email
+p: Eds password
+
+
+once you get in
+create sandbox
+
+go to API Keys
+production API kEY
+
+sandbox keys
+starts TEST
+
+
+-> sandbox connections
+got links to fake credit cards aacts
+
+shipengine your username is your email
+
+
+work with postman to the curl command for  the API endpoint
+curl -X POST \
+  https://api.shipengine.com/hackathon/setup \
+  -H 'api-key: 7c/Zvg/10Hy6+zZamOwe88cpOVz6e18N8CYhyZ+xXV4' \
+  -H 'cache-control: no-cache' \
+  -H 'postman-token: 2de1a198-66fc-13a2-3e55-d0ca397b1cc1'
+
+
+
+IMPT: api key
+TEST_bAy47gWWvwWCzHPnXEp5V083hhztc5lDnGbLtAeBp7U
+
+
+https://github.com/ShipEngine/shipengine-json-schema/
+use this to properly make your json to send to your API
+
+with everything, import go to body and hit send
+step 2
+postman
+    get https://api.shipengine.com/v1/carriers
+cant use web UI because of cors
+
+go to docs.shipengine.com to list carriers
+
+
+steps 3
+    https://api.shipengine.com/v1/rates
+
+
+https://docs.shipengine.com/docs/get-shipping-rates
+    copy example with Example (with shipment details)
+    change api key to test key
+    then carrier ids to what is in your sandbox connections
+
+
+shipping label
+
+
+validate address
+https://docs.shipengine.com/docs/address-validation
+    if you sepcif a field and its wrong, database says if donest exst
+    however if its vague, the database can figure it out
+    multiple addresses will error
+
+address parsing
+    https://docs.shipengine.com/docs/natural-language-processing-nlp
+    
+    
+        
